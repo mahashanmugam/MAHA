@@ -4,7 +4,7 @@
 int main()
 {
  int tmp,i;
- char str[30];
+ char str[20];
  printf("Enter any string: ");
  gets(str);
  for(i=0; str[i]!='\0'; i++)
@@ -20,5 +20,4 @@ int main()
    printf("%c",str[i]);
  }
  getch();
- return 0;
 }
